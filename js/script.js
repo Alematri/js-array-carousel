@@ -5,23 +5,23 @@ const btnNext = document.querySelector('.down');
 btnPrev.classList.add('hide');
 
 const images = [
-  'img/01.jpg',
-  'img/02.jpg',
-  'img/03.jpg',
-  'img/04.jpg',
-  'img/05.jgp',
-  'img/06.jgp',
-  'img/07.jgp',
-  'img/08.jgp',
-  'img/09.jgp',
-  'img/10.jgp',
-  'img/11.jgp',
-  'img/12.jgp',
+  '../img/01.webp',
+  '../img/02.webp',
+  '../img/03.webp',
+  '../img/04.webp',
+  '../img/05.webp',
+  '../img/06.webp',
+  '../img/07.webp',
+  '../img/08.webp',
+  '../img/09.webp',
+  '../img/10.webp',
+  '../img/11.webp',
+  '../img/12.webp',
 ];
 
 let counterImg=0
 
-for (let i=0; i< images.length; i++){
+for (let i=0; i<images.length; i++){
   const image = images[i];
   itemsWrapper.innerHTML += `<img src="${image}" class="item hide">`;
 }

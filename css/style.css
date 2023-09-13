@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 
-.previews{
+/* .previews{
   position: absolute;
   flex-basis: 30px;
   display: flex;
@@ -75,4 +75,4 @@
 
 .preview{
   height: 30px;
-}
+} */
