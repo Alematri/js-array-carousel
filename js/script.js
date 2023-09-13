@@ -5,11 +5,18 @@ const btnNext = document.querySelector('.down');
 btnPrev.classList.add('hide');
 
 const images = [
-  'img/01.webp',
-  'img/02.webp',
-  'img/03.webp',
-  'img/04.webp',
-  'img/05.webp',
+  'img/01.jpg',
+  'img/02.jpg',
+  'img/03.jpg',
+  'img/04.jpg',
+  'img/05.jgp',
+  'img/06.jgp',
+  'img/07.jgp',
+  'img/08.jgp',
+  'img/09.jgp',
+  'img/10.jgp',
+  'img/11.jgp',
+  'img/12.jgp',
 ];
 
 let counterImg=0

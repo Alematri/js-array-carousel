@@ -65,40 +65,14 @@
   cursor: pointer;
 }
 
-.circles{
+.previews{
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  flex-basis: 30px;
   display: flex;
+  flex-direction: row;
+
 }
 
-.circle{
-  width: 10px;
-  height: 10px;
-  background-color: rgba(255, 255, 255, .6);
-  margin: 0 10px;
-  border-radius: 50%;
+.preview{
+  height: 30px;
 }
-
-.circle.active{
-  background-color: white;
-}
-
-/* .btn-arrow.top{
-  position: absolute;
-  right: 15px;
-  top: 15px;
-}
-
-.btn-arrow.bottom{
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-}
-
-.btn-arrow:hover{
-  background-color: rgba(255, 255, 255, .6);
-  color: black;
-  cursor: pointer;
-} */
